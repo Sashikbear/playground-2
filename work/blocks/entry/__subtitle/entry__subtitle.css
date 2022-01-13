@@ -1,0 +1,4 @@
+.entry__subtitle {
+  display: flex;
+  height: min-content;
+}

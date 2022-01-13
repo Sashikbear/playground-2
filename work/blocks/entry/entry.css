@@ -1,0 +1,6 @@
+.entry {
+  margin: 0;
+  padding: 43px 0 48px 0;
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+}
