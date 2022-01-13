@@ -1,0 +1,4 @@
+.header__hero-image {
+  align-self: flex-start;
+  object-fit: contain;
+}

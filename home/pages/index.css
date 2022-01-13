@@ -1,0 +1,21 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/main/main.css');
+@import url('../blocks/navbar/navbar.css');
+@import url('../blocks/page-content/page-content.css');
+@import url('../blocks/button/button.css');
+@import url('../blocks/page/page.css');
+
+@import url('../blocks/header/__hero-content/header__hero-content.css');
+@import url('../blocks/header/__hero-description/header__hero-description.css');
+@import url('../blocks/header/__hero-header/header__hero-header.css');
+@import url('../blocks/header/__hero-warpper/header__hero-wrapper.css');
+@import url('../blocks/header/__hero-image/header__hero-image.css');
+@import url('../blocks/navbar/__list-item/navbar__list-item.css');
+@import url('../blocks/navbar/__list/navbar__list.css');
+
+@import url('../blocks/button/_type/button_type_resume.css');
+@import url('../blocks/button/_type/button_type_navbar.css');
