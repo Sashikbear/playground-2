@@ -1,0 +1,5 @@
+.work-list__item {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 46px;
+}

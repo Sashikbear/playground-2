@@ -1,2 +1,4 @@
 .button {
+  all: unset;
+  cursor: pointer;
 }
