@@ -1,0 +1,5 @@
+.intro__subtitle {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 23px;
+}

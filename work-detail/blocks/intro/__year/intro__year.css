@@ -1,0 +1,11 @@
+.intro__year {
+    margin: 0 17px 0 0;
+    background: #FF7C7C;
+    border-radius: 16px;
+    box-sizing: border-box;
+    font-weight: 900;
+    font-size: 18px;
+    color: #ffffff;
+    height: 25px;
+    padding: 0 10px;
+}
