@@ -1,0 +1,6 @@
+.works {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 54px 0 0;
+}

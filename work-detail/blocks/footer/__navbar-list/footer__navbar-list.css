@@ -1,0 +1,8 @@
+.footer__navbar-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width: 232px;
+}
