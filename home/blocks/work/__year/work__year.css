@@ -1,0 +1,11 @@
+.work__year {
+  background-color: #142850;
+  border-radius: 16px;
+  color: white;
+  min-width: 62px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  align-self: center;
+}

@@ -1,0 +1,7 @@
+.navbar {
+  max-width: 1152px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 60px;
+}

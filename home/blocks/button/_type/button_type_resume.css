@@ -1,0 +1,12 @@
+.button_type_download-resume {
+  all: unset;
+  cursor: pointer;
+  background: #ff6464;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29.4px;
+  width: 208px;
+  min-height: 47px;
+  text-align: center;
+}
