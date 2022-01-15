@@ -1,0 +1,43 @@
+/*Normalize and Fonts*/
+@import url(../vendor/normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&family=Inter:wght@400;600;900&display=swap");
+
+/*Root*/
+@import url(../blocks/root/root.css);
+
+/*Blocks*/
+/*Page-Content*/
+@import url(../blocks/page-content/page-content.css);
+
+/*Page-Title*/
+@import url(../blocks/page-title/page-title.css);
+
+/*Navbar*/
+@import url(../blocks/navbar/navbar.css);
+@import url(../blocks/navbar/__list/navbar__list.css);
+@import url(../blocks/navbar/__list-item/navbar__list-item.css);
+@import url(../blocks/navbar/__link/navbar__link.css);
+@import url(../blocks/navbar/__item-color/navbar__item-color.css);
+
+/*Blogs*/
+@import url(../blocks/blogs/blogs.css);
+
+/*Blog-List*/
+@import url(../blocks/blog-list/blog-list.css);
+@import url(../blocks/blog-list/__item/blog-list__item.css);
+
+/*Blog*/
+@import url(../blocks/blog/__description/blog__description.css);
+@import url(../blocks/blog/__info/blog__info.css);
+@import url(../blocks/blog/__title/blog__title.css);
+@import url(../blocks/blog/__type/blog__type.css);
+@import url(../blocks/blog/__year/blog__year.css);
+
+
+/*Nav-List*/
+@import url(../blocks/nav-list/nav-list.css);
+
+/*Footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
