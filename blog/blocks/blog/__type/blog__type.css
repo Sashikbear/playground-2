@@ -1,8 +1,10 @@
 .blog__type {
-    margin: 0;
-    align-self: center;
-    color: #8695a4;
-    font-size: 20px;
-    line-height: 29.4px;
-  }
-  
+  min-width: 62px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  align-self: center;
+  padding: 0 0 0 16px;
+  color: #8695a4;
+}

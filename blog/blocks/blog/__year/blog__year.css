@@ -1,9 +1,10 @@
 .blog__year {
-    min-width: 62px;
-    font-weight: 900;
-    font-size: 18px;
-    color: #8695a4;
-    line-height: 25px;
-    text-align: center;
-    align-self: center;
-  }
+  min-width: 62px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  align-self: center;
+  padding: 0 16px 0 0;
+  border-right: 1px solid black;
+}

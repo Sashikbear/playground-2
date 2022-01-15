@@ -9,11 +9,15 @@
 /*Page-Content*/
 @import url(../blocks/page-content/page-content.css);
 
+/*Page-Title*/
+@import url(../blocks/page-title/page-title.css);
+
 /*Navbar*/
 @import url(../blocks/navbar/navbar.css);
 @import url(../blocks/navbar/__list/navbar__list.css);
 @import url(../blocks/navbar/__list-item/navbar__list-item.css);
 @import url(../blocks/navbar/__link/navbar__link.css);
+@import url(../blocks/navbar/__item-color/navbar__item-color.css);
 
 /*Blogs*/
 @import url(../blocks/blogs/blogs.css);
