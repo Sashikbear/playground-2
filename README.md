@@ -1,4 +1,8 @@
 # HELLOY OUR FIRST PROJECT !
 
 Contributors:
-Resdeni
+resdenia
+Sashikbear
+Omriruvio
+MariaKonstantinov
+meidankaye
