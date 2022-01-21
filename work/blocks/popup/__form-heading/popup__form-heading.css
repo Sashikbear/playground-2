@@ -1,0 +1,9 @@
+.popup__form-heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #2B4BF2;
+    margin: 0 24px 16px;
+    max-width: 280px;
+}
