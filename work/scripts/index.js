@@ -1,6 +1,7 @@
                         //veriables
 const popupOpenButton = document.querySelector("#resume")
 const popupwork = document.querySelector(".popup_type_work");
+const popupSubmitButten = document.querySelector(".popup__button_type_work")
 
 
                         //functions
@@ -35,4 +36,10 @@ function handleClosePopupOnEsc(event){
 popupOpenButton.addEventListener("click", () => OpenPopup(popupwork)
 );
 
+function SubmitResumeForm(evt) {
+    evt.preventDefault();
+    //need to submit the email to somewhere;
+    closePopup(popupwork);
+}
 
+popupSubmitButten.addEventListener("click", SubmitResumeForm);
