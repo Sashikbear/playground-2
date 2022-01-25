@@ -5,8 +5,15 @@ const populateBlog = () => {
     .then((response) => response.json())
     .then((json) => {
       json.forEach((post) => {
-        if (post.id <= 10) {
-          const addBlogpost = (post) => {
+        const blog = {
+          title: post.title,
+          year: post.userId,
+          type: post.id,
+          text: post.body,
+        };
+        const { title, year, type, text } = blog;
+        if (type <= 10) {
+          const addBlogpost = () => {
             // selecting DOM element's contents
             const blogpostTemplate =
               document.querySelector("#template").content;
@@ -23,10 +30,10 @@ const populateBlog = () => {
               blogpostElement.querySelector(".blog__description");
 
             // giving values from API
-            blogpostTitle.textContent = post.title;
-            blogpostYear.textContent = post.userId;
-            blogpostType.textContent = post.id;
-            blogpostText.textContent = post.body;
+            blogpostTitle.textContent = title;
+            blogpostYear.textContent = year;
+            blogpostType.textContent = type;
+            blogpostText.textContent = text;
             return blogpostElement;
           };
           const attachBlogpost = (post) => {
@@ -35,6 +42,9 @@ const populateBlog = () => {
           attachBlogpost(post);
         }
       });
+    })
+    .catch((error) => {
+      console.error("Error:", error);
     });
 };
 populateBlog();
