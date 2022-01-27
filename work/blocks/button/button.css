@@ -1,0 +1,15 @@
+.button {
+  cursor: pointer;
+  border: none;
+  height: 25px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin: 0 26px 0 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #ffffff;
+  background-color: #142850;
+  border-radius: 16px;
+}

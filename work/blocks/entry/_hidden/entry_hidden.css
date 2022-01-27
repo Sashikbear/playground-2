@@ -1,0 +1,5 @@
+.entry_hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.8s linear, opacity 1 linear;
+}
