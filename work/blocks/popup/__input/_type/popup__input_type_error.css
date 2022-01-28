@@ -1,0 +1,8 @@
+.popup__input_type_error {
+    border: 1px solid #FF6464;
+    color: black;
+}
+
+.popup__input_type_error:focus-visible {
+    outline: 1px #FF6464;
+}
