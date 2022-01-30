@@ -1,4 +1,18 @@
 .header__hero-image {
   align-self: flex-start;
   object-fit: contain;
+  transition: transform 1s, background-image 2s;
+  background-image: url(../../../images/hero-image.png);
+  width: 248px;
+  height: 248px;
+  cursor: pointer;
+}
+
+.header__hero-image:hover {
+  transform: scale(1.2);
+}
+
+.header__hero-image:active {
+  transform: rotateY(180deg);
+  background: url(../../../images/insta.png);
 }
