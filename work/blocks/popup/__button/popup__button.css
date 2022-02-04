@@ -1,15 +1,15 @@
-.popup__button{
-    align-items: center;
-    padding: 6px 16px;
-    width: 280px;
-    height: 42px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    color: #FFFFFF;
-    background: #FF6464;
-    border-radius: 8px;
-    margin: 0 24px 24px;
-    border: none;
+.popup__button {
+  align-items: center;
+  padding: 6px 16px;
+  width: 280px;
+  height: 42px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #ff6464;
+  border-radius: 8px;
+  margin: 0 24px 24px;
+  border: none;
 }
