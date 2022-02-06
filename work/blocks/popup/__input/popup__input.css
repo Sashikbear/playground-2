@@ -1,4 +1,4 @@
-.popup__input{
+.popup__input {
     width: 280px;
     height: 48px;
     background: rgba(123, 151, 206, 0.06);
@@ -11,5 +11,5 @@
     line-height: 21px;
     color: black;
     padding-left: 16px;
-    margin: 0 24px 24px;
+    margin: 0 24px;
 }

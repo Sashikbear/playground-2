@@ -1,4 +1,4 @@
-.popup__button{
+.popup__button {
     align-items: center;
     padding: 6px 16px;
     width: 280px;
@@ -10,6 +10,6 @@
     color: #FFFFFF;
     background: #FF6464;
     border-radius: 8px;
-    margin: 0 24px 24px;
+    margin: 24px 24px;
     border: none;
 }
