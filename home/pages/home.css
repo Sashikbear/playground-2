@@ -13,6 +13,8 @@
 @import url('../blocks/works/works.css');
 @import url('../blocks/work-list/work-list.css');
 @import url('../blocks/nav-list/nav-list.css');
+@import url(../blocks/skills/__graph/skills__graph.css);
+
 
 @import url('../blocks/header/__hero-content/header__hero-content.css');
 @import url('../blocks/header/__hero-description/header__hero-description.css');

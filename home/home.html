@@ -1,138 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./pages/home.css" />
-  </head>
-  <body class="page">
-    <nav class="navbar">
-      <ul class="navbar__list">
-        <li class="navbar__list-item"><button class="button button_type_navbar" type="button">Works</button></li>
-        <li class="navbar__list-item"><button class="button button_type_navbar" type="button">Blog</button></li>
-        <li class="navbar__list-item"><button class="button button_type_navbar" type="button">Contact</button></li>
-      </ul>
-    </nav>
-    <div class="page-content">
-      <section class="header">
-        <div class="header__hero-wrapper">
-          <div class="header__hero-content">
-            <h1 class="header__hero-header">Hi, I am John, Creative Technologist</h1>
-            <p class="header__hero-description">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./pages/home.css" />
+</head>
+
+<body class="page">
+  <nav class="navbar">
+    <ul class="navbar__list">
+      <li class="navbar__list-item"><button class="button button_type_navbar" type="button">Works</button></li>
+      <li class="navbar__list-item"><button class="button button_type_navbar" type="button">Blog</button></li>
+      <li class="navbar__list-item"><button class="button button_type_navbar" type="button">Contact</button></li>
+    </ul>
+  </nav>
+  <div class="page-content">
+    <section class="header">
+      <div class="header__hero-wrapper">
+        <div class="header__hero-content">
+          <h1 class="header__hero-header">Hi, I am John, Creative Technologist</h1>
+          <p class="header__hero-description">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+            velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <button type="button" class="button button_type_download-resume">Download Resume</button>
+        </div>
+        <img src="./images/hero-image.png" alt="smiling person wearing a cap" class="header__hero-image" />
+      </div>
+    </section>
+    <section class="posts">
+      <div class="posts__wrapper">
+        <div class="posts__header-wrapper">
+          <h2 class="section-title">Recent posts</h2>
+          <button class="button button_type_view-all">View all</button>
+        </div>
+        <ul class="posts__cards">
+          <li class="posts__card">
+            <h3 class="posts__card-header">Making a design system from scratch</h3>
+            <div class="posts__card-description">
+              <span class="posts__card-date">12 Feb 2020</span>
+              <span class="posts__card-subtitle">Design, Pattern</span>
+            </div>
+            <p class="posts__card-text">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
+              enim velit mollit. Exercitation
               veniam consequat sunt nostrud amet.
             </p>
-            <button type="button" class="button button_type_download-resume">Download Resume</button>
-          </div>
-          <img src="./images/hero-image.png" alt="smiling person wearing a cap" class="header__hero-image" />
-        </div>
-      </section>
-      <section class="posts">
-        <div class="posts__wrapper">
-          <div class="posts__header-wrapper">
-            <h2 class="section-title">Recent posts</h2>
-            <button class="button button_type_view-all">View all</button>
-          </div>
-          <ul class="posts__cards">
-            <li class="posts__card">
-              <h3 class="posts__card-header">Making a design system from scratch</h3>
-              <div class="posts__card-description">
-                <span class="posts__card-date">12 Feb 2020</span>
-                <span class="posts__card-subtitle">Design, Pattern</span>
-              </div>
-              <p class="posts__card-text">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation
-                veniam consequat sunt nostrud amet.
-              </p>
-            </li>
-            <li class="posts__card">
-              <h3 class="posts__card-header">Creating pixel perfect icons in Figma</h3>
-              <div class="posts__card-description">
-                <span class="posts__card-date">12 Feb 2020</span>
-                <span class="posts__card-subtitle">Figma, Icon Design</span>
-              </div>
-              <p class="posts__card-text">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation
-                veniam consequat sunt nostrud amet.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="works">
-        <h2 class="section-title">Featured works</h2>
-        <ul class="work-list">
-          <li class="work-list__item">
-            <div class="works__image-wrapper">
-              <img src="./images/works-1.png" alt="dashboard" class="work__image" />
-            </div>
-            <div class="work__content">
-              <h3 class="work__title">Designing Dashboards</h3>
-              <div class="work__info">
-                <span class="work__year">2020</span>
-                <h4 class="work__type">Dashboard</h4>
-              </div>
-              <p class="work__description">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation
-                veniam consequat sunt nostrud amet.
-              </p>
-            </div>
           </li>
-          <li class="work-list__item">
-            <div class="works__image-wrapper">
-              <img src="./images/works-2.png" alt="vibrant woman portrait" class="work__image" />
+          <li class="posts__card">
+            <h3 class="posts__card-header">Creating pixel perfect icons in Figma</h3>
+            <div class="posts__card-description">
+              <span class="posts__card-date">12 Feb 2020</span>
+              <span class="posts__card-subtitle">Figma, Icon Design</span>
             </div>
-            <div class="work__content">
-              <h3 class="work__title">Vibrant Portraits of 2020</h3>
-              <div class="work__info">
-                <span class="work__year">2018</span>
-                <h4 class="work__type">Illustration</h4>
-              </div>
-              <p class="work__description">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation
-                veniam consequat sunt nostrud amet.
-              </p>
-            </div>
-          </li>
-          <li class="work-list__item">
-            <div class="works__image-wrapper">
-              <img src="./images/works-3.png" alt="typography figure" class="work__image" />
-            </div>
-            <div class="work__content">
-              <h3 class="work__title">36 Days of Malayalam type</h3>
-              <div class="work__info">
-                <span class="work__year">2018</span>
-                <h4 class="work__type">Typography</h4>
-              </div>
-              <p class="work__description">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation
-                veniam consequat sunt nostrud amet.
-              </p>
-            </div>
+            <p class="posts__card-text">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
+              enim velit mollit. Exercitation
+              veniam consequat sunt nostrud amet.
+            </p>
           </li>
         </ul>
-      </section>
-      <section class="footer">
-        <nav class="footer__nav">
-          <ul class="nav-list">
-            <li class="nav-list__item">
-              <button type="button" class="button"><img src="./images/fb.png" alt="facebook logo" class="nav-list__image" /></button>
-            </li>
-            <li class="nav-list__item">
-              <button type="button" class="button"><img src="./images/insta.png" alt="instagram logo" class="nav-list__image" /></button>
-            </li>
-            <li class="nav-list__item">
-              <button type="button" class="button"><img src="./images/twitter.png" alt="twitter logo" class="nav-list__image" /></button>
-            </li>
-            <li class="nav-list__item">
-              <button type="button" class="button"><img src="./images/Linkedin.png" alt="linkedin logo" class="nav-list__image" /></button>
-            </li>
-          </ul>
-        </nav>
-        <span class="footer__copyright">Copyright ©2020 All rights reserved </span>
-      </section>
-    </div>
-  </body>
+      </div>
+    </section>
+    <section class="works">
+      <h2 class="section-title">Featured works</h2>
+      <ul class="work-list">
+        <li class="work-list__item">
+          <div class="works__image-wrapper">
+            <img src="./images/works-1.png" alt="dashboard" class="work__image" />
+          </div>
+          <div class="work__content">
+            <h3 class="work__title">Designing Dashboards</h3>
+            <div class="work__info">
+              <span class="work__year">2020</span>
+              <h4 class="work__type">Dashboard</h4>
+            </div>
+            <p class="work__description">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
+              enim velit mollit. Exercitation
+              veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </li>
+        <li class="work-list__item">
+          <div class="works__image-wrapper">
+            <img src="./images/works-2.png" alt="vibrant woman portrait" class="work__image" />
+          </div>
+          <div class="work__content">
+            <h3 class="work__title">Vibrant Portraits of 2020</h3>
+            <div class="work__info">
+              <span class="work__year">2018</span>
+              <h4 class="work__type">Illustration</h4>
+            </div>
+            <p class="work__description">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
+              enim velit mollit. Exercitation
+              veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </li>
+        <li class="work-list__item">
+          <div class="works__image-wrapper">
+            <img src="./images/works-3.png" alt="typography figure" class="work__image" />
+          </div>
+          <div class="work__content">
+            <h3 class="work__title">36 Days of Malayalam type</h3>
+            <div class="work__info">
+              <span class="work__year">2018</span>
+              <h4 class="work__type">Typography</h4>
+            </div>
+            <p class="work__description">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
+              enim velit mollit. Exercitation
+              veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="skills">
+      <div class="skills-graph">
+        <img src="images/skills.svg" alt="skills graph image" class="skills__image">
+      </div>
+    </section>
+    <section class="footer">
+      <nav class="footer__nav">
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <button type="button" class="button"><img src="./images/fb.png" alt="facebook logo"
+                class="nav-list__image" /></button>
+          </li>
+          <li class="nav-list__item">
+            <button type="button" class="button"><img src="./images/insta.png" alt="instagram logo"
+                class="nav-list__image" /></button>
+          </li>
+          <li class="nav-list__item">
+            <button type="button" class="button"><img src="./images/twitter.png" alt="twitter logo"
+                class="nav-list__image" /></button>
+          </li>
+          <li class="nav-list__item">
+            <button type="button" class="button"><img src="./images/Linkedin.png" alt="linkedin logo"
+                class="nav-list__image" /></button>
+          </li>
+        </ul>
+      </nav>
+      <span class="footer__copyright">Copyright ©2020 All rights reserved </span>
+    </section>
+  </div>
+</body>
+
 </html>
